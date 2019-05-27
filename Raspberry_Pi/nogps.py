@@ -147,6 +147,7 @@ def to_quaternion(roll = 0.0, pitch = 0.0, yaw = 0.0):
 # Take off 1m in GUIDED_NOGPS mode.
 arm_and_takeoff_nogps(1)
 
+'''
 # Hold the position for 3 seconds.
 print("Hold position for 3 seconds")
 set_attitude(duration = 3)
@@ -164,6 +165,7 @@ set_attitude(pitch_angle = -5, thrust = 0.5, duration = 3)
 
 print("Move backward")
 set_attitude(pitch_angle = 5, thrust = 0.5, duration = 3)
+'''
 
 
 print("Setting LAND mode...")
