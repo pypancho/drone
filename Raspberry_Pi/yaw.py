@@ -74,7 +74,7 @@ print('Yaw 30 degrees CCW')
 heading = 30
 condition_yaw(heading = heading, direction = -1, relative=True)
 
-# This is the command to move the copter 0.5 m/s forward for 6 sec.
+# This is the command to move the copter 0.5 m/s forward for 10 sec.
 print('Forward 0.5m/s for 6s')
 velocity_x = 0.5
 velocity_y = 0
@@ -88,8 +88,8 @@ heading = 30
 condition_yaw(heading = heading, direction = 1, relative=True)
 
 
-# backwards at 0.5 m/s for 6 sec.
-print('backwards 0.5m/s for 6s')
+# backwards at 0.5 m/s for 10 sec.
+print('Right 0.5m/s for 6s')
 velocity_x = 0
 velocity_y = 0.5
 velocity_z = 0
